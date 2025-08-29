@@ -1,0 +1,139 @@
+  body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    margin-left: 15%;
+    
+    background-color:hsl(0, 0%, 95%);
+    width: 70%;
+   
+  }  
+.parent-div {
+ display: flex;
+ overflow: hidden;
+    border-radius: 10px;
+ max-width: 900px;
+    
+    
+}
+
+
+
+  .div1{  
+    display: flex;  
+    flex-direction: column;  
+    padding:20px;
+    color:rgb(255, 255, 255); 
+    background-color: hsl(31, 77%, 52%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:400;
+     
+}
+
+
+  .div2{  
+   display: flex;  
+    flex-direction: column;  
+    padding:20px;
+    color:rgb(255, 255, 255); 
+    background-color: hsl(184, 100%, 22%); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight:400; 
+     
+}
+
+
+  .div3{  
+   display: flex;  
+    flex-direction: column;  
+    padding:20px;
+    color:rgb(255, 255, 255); 
+    background-color: hsl(179, 100%, 13%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight:400;
+     font-size: 1em; 
+      
+  
+}
+
+.div1 img,
+.div2 img,
+.div3 img {
+    width: 60px; /* Adjust this value to your desired size */
+    height: auto;
+    margin-bottom: 30px; /* Add some space below the icon */
+}
+
+
+h1{
+font-weight:500;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    flex-grow: 1;
+     line-height: 1.6; }
+
+    
+
+    .button1{
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+     text-decoration: none; 
+     padding: 15px;
+      margin-top: 180px;
+    border-radius: 30px;
+    font-weight: 600;
+ margin-top: auto; 
+    align-self: flex-start;
+    }
+    
+
+
+.button1:hover {
+    background-color:rgb(187,110,35);
+     color:hsl(0, 0%, 95%);
+}
+
+ .button2{
+    background-color:hsl(0, 0%, 95%);
+    color:  hsl(184, 100%, 22%); 
+     text-decoration: none; 
+    padding: 15px;
+    margin-top: 180px;
+    border-radius: 30px;
+    font-weight: 600;
+ margin-top: auto; 
+    align-self: flex-start;
+    }
+
+
+.button2:hover {
+    background-color:rgb(31,83,89);
+    color:hsl(0, 0%, 95%);
+}
+
+
+    .button3{
+    background-color:hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+     text-decoration: none; 
+    padding: 15px;
+     margin-top: 180px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: auto; 
+    align-self: flex-start;
+    
+}
+     
+     
+
+
+.button3:hover {
+    background-color:rgb(16,49,49);
+     color:hsl(0, 0%, 95%);
+}
+
+
